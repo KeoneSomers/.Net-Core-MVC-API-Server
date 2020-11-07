@@ -18,8 +18,6 @@ namespace studentApi.Controllers
             _context = context;
         }
 
-
-
         // Get all the students from database
         [HttpGet]
         public async Task<List<Student>> Get()
@@ -27,7 +25,7 @@ namespace studentApi.Controllers
             return await _context.students.ToListAsync();
         }
 
-        // Create - post - listen for post from other client
+        // CREATE - POST - (if the request from the client is valid then post it here.)
         [HttpPost]
         public IActionResult PostStudent([FromBody]Student student)
         {
@@ -43,9 +41,7 @@ namespace studentApi.Controllers
         }
 
         // Delete - post
-
         // Edit - post
-
         // Details - post
 
     }
