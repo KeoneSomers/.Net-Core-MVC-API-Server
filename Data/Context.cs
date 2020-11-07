@@ -7,7 +7,6 @@ namespace studentApi.Data
     {
         public Context(DbContextOptions<Context> options) : base(options)
         {
-
         }
 
         public DbSet<Student> students { get; set; }

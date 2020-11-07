@@ -11,6 +11,7 @@ namespace studentApi.Controllers
     [Route("api/[Controller]")]
     public class StudentController : Controller
     {
+        // Database injection
         private Context _context;
         public StudentController(Context context)
         {
@@ -19,31 +20,33 @@ namespace studentApi.Controllers
 
 
 
-        // Get all the students
+        // Get all the students from database
         [HttpGet]
         public async Task<List<Student>> Get()
         {
             return await _context.students.ToListAsync();
         }
 
+        // Create - post - listen for post from other client
+        [HttpPost]
+        public IActionResult PostStudent([FromBody]Student student)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest("Not a valid model!");
+            }
 
+            _context.students.Add(student);
+            _context.SaveChanges();
 
-        // [HttpGet]
-        // [Route("~/api/meta/schema/{​​​​​​schemaName}​​​​​​")]
-        // [Produces(typeof(ModelSchemaSummaries))]
-        // public async Task<IActionResult> GetSchemaMeta([FromRoute]string schemaName)
-        // {​​​​​​
-        //     try
-        //     {​​​​​​
-        //         var meta = _workflowService.GetSchemaMeta(schemaName);
-        //     return Ok(meta);
-        //     }​​​​​​
-        //     catch (Exception ex)
-        //     {​​​​​​
-        //         return NotFound(ex.Message);
-        //     }​​​​​​
-        // }​​​​​​
+            return Ok();
+        }
 
+        // Delete - post
+
+        // Edit - post
+
+        // Details - post
 
     }
 }
