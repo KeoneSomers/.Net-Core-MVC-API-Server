@@ -1,0 +1,122 @@
+C:\Development\studentApi\obj\Debug\netcoreapp3.1\studentApi.csprojAssemblyReference.cache
+C:\Development\studentApi\obj\Debug\netcoreapp3.1\studentApi.AssemblyInfoInputs.cache
+C:\Development\studentApi\obj\Debug\netcoreapp3.1\studentApi.AssemblyInfo.cs
+C:\Development\studentApi\obj\Debug\netcoreapp3.1\studentApi.csproj.CoreCompileInputs.cache
+C:\Development\studentApi\obj\Debug\netcoreapp3.1\studentApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\studentApi.exe
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\studentApi.deps.json
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\studentApi.runtimeconfig.json
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\studentApi.runtimeconfig.dev.json
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\studentApi.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\studentApi.pdb
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Development\studentApi\obj\Debug\netcoreapp3.1\studentApi.RazorTargetAssemblyInfo.cache
+C:\Development\studentApi\obj\Debug\netcoreapp3.1\studentApi.csproj.CopyComplete
+C:\Development\studentApi\obj\Debug\netcoreapp3.1\staticwebassets\studentApi.StaticWebAssets.Manifest.cache
+C:\Development\studentApi\obj\Debug\netcoreapp3.1\staticwebassets\studentApi.StaticWebAssets.xml
+C:\Development\studentApi\obj\Debug\netcoreapp3.1\studentApi.dll
+C:\Development\studentApi\obj\Debug\netcoreapp3.1\studentApi.pdb
+C:\Development\studentApi\obj\Debug\netcoreapp3.1\studentApi.genruntimeconfig.cache
+C:\Development\studentApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\studentApi.exe
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\studentApi.deps.json
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\studentApi.runtimeconfig.json
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\studentApi.runtimeconfig.dev.json
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\studentApi.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\studentApi.pdb
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\studentApi.csprojAssemblyReference.cache
+C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\studentApi.AssemblyInfoInputs.cache
+C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\studentApi.AssemblyInfo.cs
+C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\studentApi.csproj.CoreCompileInputs.cache
+C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\studentApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\studentApi.RazorTargetAssemblyInfo.cache
+C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\studentApi.csproj.CopyComplete
+C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\staticwebassets\studentApi.StaticWebAssets.Manifest.cache
+C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\staticwebassets\studentApi.StaticWebAssets.xml
+C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\studentApi.dll
+C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\studentApi.pdb
+C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\studentApi.genruntimeconfig.cache
