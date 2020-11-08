@@ -54,10 +54,7 @@ namespace studentApi.Controllers
         {
             var student = await _context.students.FindAsync(id);
 
-            if (student == null)
-            {
-                return NotFound();
-            }
+            if (student == null) {return NotFound();}
 
             _context.students.Remove(student);
             await _context.SaveChangesAsync();
