@@ -49,8 +49,24 @@ namespace studentApi.Controllers
         }
 
         // Delete - post
+        [HttpDelete("{Id}")]
+        public async Task<IActionResult> DeleteStudent(int id)
+        {
+            var student = await _context.students.FindAsync(id);
+
+            if (student == null)
+            {
+                return NotFound();
+            }
+
+            _context.students.Remove(student);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+
         // Edit - post
-        // Details - post
 
     }
 }
