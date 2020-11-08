@@ -25,6 +25,14 @@ namespace studentApi.Controllers
             return await _context.students.ToListAsync();
         }
 
+        // Get One Student
+        [HttpGet("{Id}")]
+        public Student GetStudent(int Id)
+        {
+            var Student = _context.students.Where(a => a.Id == Id).SingleOrDefault();
+            return Student;
+        }
+
         // CREATE - POST - (if the request from the client is valid then post it here.)
         [HttpPost]
         public IActionResult PostStudent([FromBody]Student student)
