@@ -8,7 +8,7 @@ using studentApi.Models;
 
 namespace studentApi.Controllers
 {
-    [Route("api/[Controller]")]
+    [Route("api/StudentController")]
     public class StudentController : Controller
     {
         // Database injection
@@ -19,14 +19,14 @@ namespace studentApi.Controllers
         }
 
         // Get all the students from database
-        [HttpGet]
+        [HttpGet("getAll")]
         public async Task<List<Student>> Get()
         {
             return await _context.students.ToListAsync();
         }
 
         // Get One Student
-        [HttpGet("{Id}")]
+        [HttpGet("GetSingle/{Id}")]
         public Student GetStudent(int Id)
         {
             var Student = _context.students.Where(a => a.Id == Id).SingleOrDefault();
@@ -34,7 +34,7 @@ namespace studentApi.Controllers
         }
 
         // CREATE - POST - (if the request from the client is valid then post it here.)
-        [HttpPost]
+        [HttpPost("Create")]
         public IActionResult PostStudent([FromBody]Student student)
         {
             if (!ModelState.IsValid)
@@ -49,7 +49,7 @@ namespace studentApi.Controllers
         }
 
         // Delete - post
-        [HttpDelete("{Id}")]
+        [HttpDelete("Delete/{Id}")]
         public async Task<IActionResult> DeleteStudent(int id)
         {
             var student = await _context.students.FindAsync(id);
@@ -64,9 +64,6 @@ namespace studentApi.Controllers
 
             return NoContent();
         }
-
-
-        // Edit - post
 
     }
 }
