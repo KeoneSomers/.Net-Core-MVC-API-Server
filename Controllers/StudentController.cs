@@ -62,5 +62,28 @@ namespace studentApi.Controllers
             return NoContent();
         }
 
+        // Edit - Put
+        [HttpPut("Edit")]
+        public IActionResult Edit([FromBody]Student student)
+        {
+            if (!ModelState.IsValid) {return BadRequest("Not a valid model");}
+
+            var existingStudent = _context.students.Where(a => a.Id == student.Id).SingleOrDefault();
+
+            if (existingStudent != null)
+            {
+                existingStudent.Id = student.Id;
+                existingStudent.Name = student.Name;
+
+                _context.SaveChanges();
+            }
+            else
+            {
+                return NotFound();
+            }
+
+            return Ok();
+        }
+
     }
 }
