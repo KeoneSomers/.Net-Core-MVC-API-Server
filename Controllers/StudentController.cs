@@ -34,10 +34,11 @@ namespace studentApi.Controllers
 
         // Return just one Student ----------------------------------------------------------------------------
         [HttpGet("GetSingle/{Id}")]
-        public Student GetStudent(int Id)
+        public async Task<Student> GetStudent(int Id)
         {
-            var Student = database.students.Where(a => a.Id == Id).SingleOrDefault();
-            return Student;
+            var Student = database.students.Where(x => x.Id == Id).SingleOrDefaultAsync();
+
+            return await Student;
         }
 
 
@@ -46,10 +47,7 @@ namespace studentApi.Controllers
         [HttpPost("Create")]
         public IActionResult PostStudent([FromBody]Student student)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest("Not a valid model!");
-            }
+            if (!ModelState.IsValid) {return BadRequest();}
 
             database.students.Add(student);
             database.SaveChanges();
@@ -79,7 +77,7 @@ namespace studentApi.Controllers
         {
             if (!ModelState.IsValid) {return BadRequest("Not a valid model");}
 
-            var existingStudent = database.students.Where(s => s.Id == updatedStudent.Id).SingleOrDefault();
+            var existingStudent = database.students.Where(x => x.Id == updatedStudent.Id).SingleOrDefault();
 
             if (existingStudent != null)
             {
