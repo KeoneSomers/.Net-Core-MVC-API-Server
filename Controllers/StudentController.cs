@@ -11,29 +11,38 @@ namespace studentApi.Controllers
     [Route("api/StudentController")]
     public class StudentController : Controller
     {
-        // Database injection
-        private Context _context;
+        // DATABASE CONNECTION -------------------------------------------------------------------------------
+        private Context database;
+
         public StudentController(Context context)
         {
-            _context = context;
+            database = context;
         }
+        // ----------------------------------------------------------------------------------------------------
 
-        // Get all the students from database
+
+
+
+        // Return a list of All Students ----------------------------------------------------------------------
         [HttpGet("getAll")]
         public async Task<List<Student>> Get()
         {
-            return await _context.students.ToListAsync();
+            return await database.students.ToListAsync();
         }
 
-        // Get One Student
+
+
+        // Return just one Student ----------------------------------------------------------------------------
         [HttpGet("GetSingle/{Id}")]
         public Student GetStudent(int Id)
         {
-            var Student = _context.students.Where(a => a.Id == Id).SingleOrDefault();
+            var Student = database.students.Where(a => a.Id == Id).SingleOrDefault();
             return Student;
         }
 
-        // CREATE - POST - (if the request from the client is valid then post it here.)
+
+
+        // Create a new Student -------------------------------------------------------------------------------
         [HttpPost("Create")]
         public IActionResult PostStudent([FromBody]Student student)
         {
@@ -42,40 +51,42 @@ namespace studentApi.Controllers
                 return BadRequest("Not a valid model!");
             }
 
-            _context.students.Add(student);
-            _context.SaveChanges();
+            database.students.Add(student);
+            database.SaveChanges();
 
             return Ok();
         }
 
-        // Delete - post
+
+
+        // Delete a Student ----------------------------------------------------------------------------------
         [HttpDelete("Delete/{Id}")]
         public async Task<IActionResult> DeleteStudent(int id)
         {
-            var student = await _context.students.FindAsync(id);
+            var student = await database.students.FindAsync(id);
 
             if (student == null) {return NotFound();}
 
-            _context.students.Remove(student);
-            await _context.SaveChangesAsync();
+            database.students.Remove(student);
+            await database.SaveChangesAsync();
 
             return NoContent();
         }
 
-        // Edit - Put
+        // Edit a Student -------------------------------------------------------------------------------------
         [HttpPut("Edit")]
-        public IActionResult Edit([FromBody]Student student)
+        public IActionResult Edit([FromBody]Student updatedStudent)
         {
             if (!ModelState.IsValid) {return BadRequest("Not a valid model");}
 
-            var existingStudent = _context.students.Where(a => a.Id == student.Id).SingleOrDefault();
+            var existingStudent = database.students.Where(s => s.Id == updatedStudent.Id).SingleOrDefault();
 
             if (existingStudent != null)
             {
-                existingStudent.Id = student.Id;
-                existingStudent.Name = student.Name;
+                existingStudent.Id = updatedStudent.Id;
+                existingStudent.Name = updatedStudent.Name;
 
-                _context.SaveChanges();
+                database.SaveChanges();
             }
             else
             {
