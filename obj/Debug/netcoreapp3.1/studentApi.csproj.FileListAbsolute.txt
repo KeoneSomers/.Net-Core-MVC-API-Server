@@ -120,3 +120,14 @@ C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\s
 C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\studentApi.dll
 C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\studentApi.pdb
 C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\studentApi.genruntimeconfig.cache
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\System.Web.Http.WebHost.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\Swashbuckle.Core.dll
+C:\Development\Request & Serve Api Projects\studentApi\bin\Debug\netcoreapp3.1\WebActivatorEx.dll
+C:\Development\Request & Serve Api Projects\studentApi\obj\Debug\netcoreapp3.1\studentApi.MvcApplicationPartsAssemblyInfo.cs
