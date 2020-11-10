@@ -36,7 +36,7 @@ namespace studentApi.Controllers
         [HttpGet("GetSingle/{Id}")]
         public async Task<Student> GetStudent(int Id)
         {
-            var Student = database.students.Where(x => x.Id == Id).SingleOrDefaultAsync();
+            var Student = database.students.Where(student => student.Id == Id).SingleOrDefaultAsync();
 
             return await Student;
         }
@@ -45,12 +45,12 @@ namespace studentApi.Controllers
 
         // Create a new Student -------------------------------------------------------------------------------
         [HttpPost("Create")]
-        public IActionResult PostStudent([FromBody]Student student)
+        public async Task<IActionResult> PostStudent([FromBody]Student student)
         {
             if (!ModelState.IsValid) {return BadRequest();}
 
             database.students.Add(student);
-            database.SaveChanges();
+            await database.SaveChangesAsync();
 
             return Ok();
         }
@@ -73,23 +73,20 @@ namespace studentApi.Controllers
 
         // Edit a Student -------------------------------------------------------------------------------------
         [HttpPut("Edit")]
-        public IActionResult Edit([FromBody]Student updatedStudent)
+        public async Task<IActionResult> Edit([FromBody]Student updatedStudent)
         {
             if (!ModelState.IsValid) {return BadRequest("Not a valid model");}
 
-            var existingStudent = database.students.Where(x => x.Id == updatedStudent.Id).SingleOrDefault();
+            var existingStudent = await database.students.FindAsync(updatedStudent.Id);
 
             if (existingStudent != null)
             {
                 existingStudent.Id = updatedStudent.Id;
                 existingStudent.Name = updatedStudent.Name;
 
-                database.SaveChanges();
+                await database.SaveChangesAsync();
             }
-            else
-            {
-                return NotFound();
-            }
+            else {return NotFound();}
 
             return Ok();
         }
