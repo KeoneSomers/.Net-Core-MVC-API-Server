@@ -14,7 +14,6 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using studentApi.Data;
-using studentApi.Options;
 
 namespace studentApi
 {
@@ -31,43 +30,38 @@ namespace studentApi
         {
             services.AddControllers();
 
-            services.AddDbContext<Context>(Options => Options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<Context>(option => 
+                option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
+            );
 
-            services.AddSwaggerGen( x => {x.SwaggerDoc("v1", new OpenApiInfo { Title = "Keone's Awesome API", Version = "v1" });});
+            services.AddSwaggerGen();
         }
-
 
 
 
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            // Development
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
 
-            // Swagger Options
-            var swaggerOptions = new SwaggerOptions();
-            Configuration.GetSection(nameof(SwaggerOptions)).Bind(swaggerOptions);
-            app.UseSwagger(option =>
-            {
-                option.RouteTemplate = swaggerOptions.JsonRoute;
-            });
+            // Swagger
+            app.UseSwagger();
             app.UseSwaggerUI( option =>
             {
-                option.SwaggerEndpoint(swaggerOptions.UiEndpoint, swaggerOptions.Description);
+                option.SwaggerEndpoint("/swagger/v1/swagger.json", "studentAPI Dashboard V1");
+                option.RoutePrefix = string.Empty;
             });
 
 
-
+            // dotNet
             app.UseHttpsRedirection();
-
             app.UseRouting();
-
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
