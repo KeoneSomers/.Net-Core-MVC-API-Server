@@ -9,6 +9,7 @@
 .history/
 
 
+# Keone's naughty files!
 obj/project.nuget.cache
 bin/Debug/netcoreapp3.1/studentApi.dll
 bin/Debug/netcoreapp3.1/studentApi.pdb
