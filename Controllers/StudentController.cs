@@ -23,7 +23,7 @@ namespace studentApi.Controllers
 
 
 
-        // Return a list of All Students ----------------------------------------------------------------------
+        // Get a list of All Students ----------------------------------------------------------------------
         [HttpGet("getAll")]
         public async Task<List<Student>> Get()
         {
@@ -32,7 +32,7 @@ namespace studentApi.Controllers
 
 
 
-        // Return just one Student ----------------------------------------------------------------------------
+        // Get a specific Student ----------------------------------------------------------------------------
         [HttpGet("GetSingle/{Id}")]
         public async Task<Student> GetStudent(int Id)
         {
@@ -70,6 +70,8 @@ namespace studentApi.Controllers
 
             return NoContent();
         }
+
+        
 
         // Edit a Student -------------------------------------------------------------------------------------
         [HttpPut("Edit")]
