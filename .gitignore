@@ -8,8 +8,12 @@
 # Local History for Visual Studio Code
 .history/
 
-# User specific
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
+
+obj/project.nuget.cache
+bin/Debug/netcoreapp3.1/studentApi.dll
+bin/Debug/netcoreapp3.1/studentApi.pdb
+obj/project.assets.json
+obj/studentApi.csproj.nuget.dgspec.json
+obj/Debug/netcoreapp3.1/studentApi.csprojAssemblyReference.cache
+obj/Debug/netcoreapp3.1/studentApi.dll
+obj/Debug/netcoreapp3.1/studentApi.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SxbwglLJbqcvFJpbpNys2qLCES79kyMmibkUsu9GFkJ2MguAmZMoFYJ8X1LFYvd1oMp0lSbAklwkzzDdVvsOgA==",
+  "dgSpecHash": "HQVHmo2mdty/n72stZK2fZEk+Htns5ci0zg8J1M8fkAN8RiwNmT2ULclyUtNhfLwxqO53c4wO0O/OrmG+t4v8A==",
   "success": true,
-  "projectFilePath": "C:\\Development\\.Net-Core-MVC-API-Server\\studentApi.csproj",
+  "projectFilePath": "C:\\Development\\Request & Serve Api Projects\\studentApi\\studentApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\keone\\.nuget\\packages\\microsoft.aspnet.webapi.client\\4.0.20710\\microsoft.aspnet.webapi.client.4.0.20710.nupkg.sha512",
     "C:\\Users\\keone\\.nuget\\packages\\microsoft.aspnet.webapi.core\\4.0.20710\\microsoft.aspnet.webapi.core.4.0.20710.nupkg.sha512",
